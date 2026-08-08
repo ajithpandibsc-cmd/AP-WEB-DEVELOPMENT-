@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Three3DCardViewer } from './Three3DCardViewer';
+import { Three3DCardViewer } from './Three3DCardViewer.jsx';
 import { Check, Clock, Sparkles, ShoppingBag, Layers } from 'lucide-react';
 
 export const ServiceCatalog = ({

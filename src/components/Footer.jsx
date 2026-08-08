@@ -1,6 +1,6 @@
 import React from 'react';
 import { Sparkles } from 'lucide-react';
-import { APLogoSymbol } from './APLogoSymbol';
+import { APLogoSymbol } from './APLogoSymbol.jsx';
 
 export const Footer = ({ onOpenOrderTracker, onSelectTab }) => {
   return (

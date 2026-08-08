@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Database, Search, Sparkles, UserCheck, Code2 } from 'lucide-react';
-import { APLogoSymbol } from './APLogoSymbol';
+import { APLogoSymbol } from './APLogoSymbol.jsx';
 
 export const Navbar = ({
   activeView,

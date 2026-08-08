@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, Sparkles, Zap, CheckCircle2, Search } from 'lucide-react';
-import { APLogoSymbol } from './APLogoSymbol';
+import { APLogoSymbol } from './APLogoSymbol.jsx';
 
 export const Hero3D = ({
   onExploreServices,

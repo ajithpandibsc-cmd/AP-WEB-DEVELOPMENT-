@@ -4,23 +4,23 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { ThreeCanvas } from './components/ThreeCanvas';
-import { Navbar } from './components/Navbar';
-import { Hero3D } from './components/Hero3D';
-import { ServiceCatalog } from './components/ServiceCatalog';
-import { AIScopeEstimator } from './components/AIScopeEstimator';
-import { OrderWizardModal } from './components/OrderWizardModal';
-import { OrderTrackerModal } from './components/OrderTrackerModal';
-import { AdminDashboard } from './components/AdminDashboard';
-import { DatabaseAdmin } from './components/DatabaseAdmin';
-import { Footer } from './components/Footer';
+import { ThreeCanvas } from './components/ThreeCanvas.jsx';
+import { Navbar } from './components/Navbar.jsx';
+import { Hero3D } from './components/Hero3D.jsx';
+import { ServiceCatalog } from './components/ServiceCatalog.jsx';
+import { AIScopeEstimator } from './components/AIScopeEstimator.jsx';
+import { OrderWizardModal } from './components/OrderWizardModal.jsx';
+import { OrderTrackerModal } from './components/OrderTrackerModal.jsx';
+import { AdminDashboard } from './components/AdminDashboard.jsx';
+import { DatabaseAdmin } from './components/DatabaseAdmin.jsx';
+import { Footer } from './components/Footer.jsx';
 import { ArrowRight } from 'lucide-react';
 import {
   DEFAULT_SERVICES,
   DEFAULT_ORDERS,
   DEFAULT_ANALYTICS,
   DEFAULT_DB_STATUS
-} from './data/defaultData';
+} from './data/defaultData.js';
 
 export default function App() {
   const [activeView, setActiveView] = useState('client');
