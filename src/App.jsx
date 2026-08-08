@@ -20,7 +20,7 @@ import {
   DEFAULT_ORDERS,
   DEFAULT_ANALYTICS,
   DEFAULT_DB_STATUS
-} from './data/defaultData.js';
+} from './data/defaultData';
 
 export default function App() {
   const [activeView, setActiveView] = useState('client');
